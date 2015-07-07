@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('body').backstretch('images/bg.jpg');
 
   function initialize() {
-    var myLatlng = new google.maps.LatLng(52.523681, 13.402309);
+    var myLatlng = new google.maps.LatLng(52.4965481, 13.4380442);
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
       center: myLatlng,
