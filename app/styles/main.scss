@@ -96,16 +96,41 @@ $icon-font-path: '../fonts/';
 }
 
 .heading {
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 25px;
   background: none;
   h1, h2, h3, h4 {
     color: #fff;
+    font-weight: normal;
   }
   border: none;
 
-  h2{
+  h1 {
     margin-top: 50px;
-    margin-bottom: 50px;
+  }
+
+  h2{
+    margin: 0;
+    &.arabic {
+      margin-bottom: 50px;
+    }
+  }
+
+  h3, h4 {
+    line-height: 1.5;
+  }
+
+  .french, .french h3 {
+    color: #33d3b4;
+  }
+
+  .albanian, .albanian h3  {
+    color: #019fb9;
+  }
+
+  .arabic, .arabic h3  {
+    color: #fecb04;
   }
 }
 
