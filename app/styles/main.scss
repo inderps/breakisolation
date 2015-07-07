@@ -11,12 +11,6 @@ $icon-font-path: '../fonts/';
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -89,5 +83,61 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+.navbar {
+  //background: rgba(51, 51, 51, 0.8);
+  background-color: #c80a48;
+  border: 0;
+  a.navbar-brand {
+    color: #ffffff;
+  }
+}
+
+.heading {
+  margin-top: 25px;
+  background: none;
+  h1, h2, h3, h4 {
+    color: #fff;
+  }
+  border: none;
+
+  h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+#map-canvas {
+  height: 400px;
+}
+
+.container.post{
+  margin-bottom: 150px;
+  .panel {
+    border: 0;
+    .panel-heading {
+      .panel-title {
+        font-size: 24px;
+      }
+      border: 0;
+      background-color: #c80a48;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
+
+.more-classes {
+  background-color: #171717;
+  padding: 25px;
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+
+  h3, p {
+    color: #a1a1a1;
   }
 }
